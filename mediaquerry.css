@@ -1,0 +1,33 @@
+@import url("responsive.css");
+
+@import url("responsive.css") screen and (max-width: 768px);
+
+
+/* Responsive part */
+@media screen and (max-width: 768px) {
+    .card1 {
+        width: 100%;
+    }
+    .testimonial {
+        width: 100%;
+    }
+    .footer-nav {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+  }
+
+  @media screen and (max-width: 1014px) {
+    .container {
+        padding-bottom: 50px !important;
+    }
+    .testimonial {
+        width: 100%;
+    }
+    .footer-nav {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+  }
